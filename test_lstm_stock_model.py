@@ -4,7 +4,7 @@ import numpy as np
 from lstm_trading_model import LSTMStockPredictor  # <- update this to your class file name if needed
 
 # --- Set the Ticker ---
-ticker = "AAPL"  # change this to any valid stock symbol
+ticker = "TSLA"  # change this to any valid stock symbol
 
 # --- Instantiate and Run the Model ---
 model = LSTMStockPredictor(ticker)
